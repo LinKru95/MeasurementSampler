@@ -1,6 +1,6 @@
-﻿using Program.Enums;
+﻿using MeasurementSamplerApp.Enums;
 
-namespace Program.Models
+namespace MeasurementSamplerApp.Models
 {
     public class MeasurementSampler
     {

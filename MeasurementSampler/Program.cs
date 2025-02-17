@@ -1,7 +1,7 @@
-﻿using Program.Enums;
-using Program.Models;
+﻿using MeasurementSamplerApp.Enums;
+using MeasurementSamplerApp.Models;
 
-namespace Program
+namespace MeasurementSamplerApp
 {
     internal class Program
     {

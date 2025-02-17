@@ -1,4 +1,4 @@
-﻿namespace Program.Enums
+﻿namespace MeasurementSamplerApp.Enums
 {
     public enum MeasurementType
     {
