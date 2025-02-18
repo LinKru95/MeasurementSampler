@@ -19,7 +19,7 @@ namespace MeasurementSamplerApp.Models
                 while (measurements.Count > 0)
                 {
                     List<Measurement> measurementsInInterval = measurements
-                        .Where(m => m.MeasurementTime >= intervalStart && m.MeasurementTime < intervalEnd)
+                        .Where(m => m.MeasurementTime > intervalStart && m.MeasurementTime <= intervalEnd)
                         .ToList();
 
                     if (measurementsInInterval.Any())
